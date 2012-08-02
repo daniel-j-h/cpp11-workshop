@@ -17,6 +17,6 @@ Books
 
 Links
 -----
-* [http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2012/n3337.pdf](N3337 working draft)
-* [http://stackoverflow.com/questions/tagged/c++](StackOverflow)
-* [http://en.cppreference.com/w/](C++Reference)
+* [N3337 working draft](http://www.open-std.org/jtc1/sc22/wg21/docs/papers/2012/n3337.pdf)
+* [StackOverflow](http://stackoverflow.com/questions/tagged/c++)
+* [C++Reference](http://en.cppreference.com/w/)
