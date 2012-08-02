@@ -11,4 +11,4 @@ Klassen
 
 Klassendiagramm
 ---------------
-![Klassendiagramm](https://github.com/daniel-j-h/cpp11-workshop/blob/master/60-MehrKlassen/Klassendiagramm.png)
+![Klassendiagramm](https://raw.github.com/daniel-j-h/cpp11-workshop/master/60-MehrKlassen/Klassendiagramm.png)
