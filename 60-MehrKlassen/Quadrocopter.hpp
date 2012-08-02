@@ -14,8 +14,8 @@ class Quadrocopter : public IControllable, public FlyingObject {
 
     int getMaxHeight() const { return maxHeight; };
 
-    void start();
-    void stop();
+    void start() override;
+    void stop() override;
 
   private:
     int maxHeight = 10;

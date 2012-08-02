@@ -1,5 +1,5 @@
-#ifndef FLYINGOBJECT
-#define FLYINGOBJECT
+#ifndef FLYINGOBJECT_HPP
+#define FLYINGOBJECT_HPP
 
 class FlyingObject {
   public:
