@@ -1,5 +1,5 @@
 Enums, Structs
 ==============
 
-enums, class enums, vorbelegungen
-structs vs classes
+* enums, class enums, vorbelegungen
+* structs vs classes

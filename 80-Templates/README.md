@@ -1,7 +1,7 @@
 Templates
 =========
 
-Einführung
-Beispiele aus der STL
-variadic templates
-decltype
+* Einführung
+* Beispiele aus der STL
+* variadic templates
+* decltype

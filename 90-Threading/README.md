@@ -1,6 +1,6 @@
 Threading
 =========
 
-threads
-mutex, atomic
-futures
+* threads
+* mutex, atomic
+* futures
