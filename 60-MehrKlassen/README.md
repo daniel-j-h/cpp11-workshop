@@ -7,3 +7,8 @@ Klassen
 * virtual, override, final, const
 * default, delete
 * delegation
+
+
+Klassendiagramm
+---------------
+![Klassendiagramm](/Klassendiagramm.png)
