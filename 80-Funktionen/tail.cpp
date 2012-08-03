@@ -1,6 +1,6 @@
 #include <iostream>
 
-long fac(long i) {
+long long fac(long long i) {
 	if (i == 0) {
 		return 1;
 	} else {
@@ -9,7 +9,7 @@ long fac(long i) {
 }
 
 int main() {
-	int n;
+	long n;
 	std::cin >> n;
 
 	std::cout << "fac(" << n << ")=" << fac(n) << std::endl;
