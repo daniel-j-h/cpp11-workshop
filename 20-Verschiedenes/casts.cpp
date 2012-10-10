@@ -16,8 +16,7 @@ public:
 };
 
 void printOnly(const int& i) {
-	int& ref = const_cast<int&>(i);
-	ref++;
+  const_cast<int&>(i) = i + 1;
 	cout << "I'm a fake printer ;)" << endl;
 }
 
