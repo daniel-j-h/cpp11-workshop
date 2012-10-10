@@ -4,7 +4,7 @@
 using namespace std;
 
 int main() {
-  vector<int> v;
+  vector<int> v{};
 
   /*
    * a few example functions on vectors
