@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cstddef>
 
 // stdlib may define NULL as followes:
 #undef NULL
@@ -27,7 +28,7 @@ int main() {
 	// better
 	foo(nullptr);
 
-	// nullptr has no specific type
+	// nullptr is of type std::nullptr_t and resides in <cstddef>
 	//bar(nullptr); // error
 	bar(static_cast<char*>(nullptr));
 	bar(static_cast<float*>(nullptr));
