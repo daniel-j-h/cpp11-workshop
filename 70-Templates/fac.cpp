@@ -1,5 +1,4 @@
-#include <stdio.h>
-#include <cinttypes>
+#include <iostream>
 
 template <long I>
 struct fac {
@@ -17,9 +16,8 @@ int main() {
 	long long c = fac<5>::value;
 	long long d = fac<13>::value;
 
-  // XXX: use PRId64 from <cinittypes> for platform independant long long printing
-  // as of now clang (version 3.1) does not respect this (yet?)
-	printf("%lld, %lld, %lld, %lld\n", a, b, c, d);
-
-	return 0;
+  // printf with PRId64 currently needs workaround for libcxx
+  // #define __STDC_FORMAT_MACROS before including <cinttypes>
+  // see http://lists.cs.uiuc.edu/pipermail/cfe-dev/2012-October/024871.html
+  std::cout << a << ", " << b << ", " << c << ", " << d << std::endl;
 }
